@@ -1,5 +1,7 @@
 const { expect } = require("chai")
-
+const hre=require("hardhat);
+const ethers= hre.ethers;
+                  
 const NAME = "TokenMaster"
 const SYMBOL = "TM"
 
