@@ -71,7 +71,7 @@ async function main() {
       occasions[i].location,
     )
 
-    await transaction.wait()
+    await transaction.wait();
 
     console.log(`Listed Event ${i + 1}: ${occasions[i].name}`)
   }
